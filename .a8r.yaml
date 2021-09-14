@@ -1,0 +1,5 @@
+k8s_config:
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: ca49c7b4-1375-5e0f-ab2f-b57ffc8c677a
+    cluster_name: tpdemo-prod-82fdd1bf-7628-48f8-930f-67a11622dcec
