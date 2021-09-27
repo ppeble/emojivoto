@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   annotations:
-    getambassador.io/rolloutId: dd4f085c-342e-42c2-97bf-a59a76a65a46
+    getambassador.io/rolloutId: 0aa81834-4206-4a39-b062-99c38b24606d
   creationTimestamp: null
   labels:
     app.kubernetes.io/name: web-app
@@ -10,7 +10,7 @@ metadata:
   name: web-app
   namespace: emojivoto
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       app: web-app
